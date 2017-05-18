@@ -1,0 +1,22 @@
+.counter{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 	text-align: center;
+ 	line-height: 100px;
+}
+#timer{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+body,html{
+	margin: 0px;
+}
+body{
+	transition: all 0.7s;
+}
